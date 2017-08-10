@@ -1,2 +1,3 @@
 # BelajarCoding
-Silabus Kelas Belajar Coding
+Belajar Coding Batch 1
+5-7 Agustus 2017
