@@ -1,0 +1,45 @@
+* {
+	box-sizing: 0;
+	margin: 0;
+	padding:0;
+}
+
+body {
+	background: #f2f2f2;
+	font-size: 14px;
+	font-family: 'Open Sans', Sans-serif;
+}
+
+.container {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+nav {
+	width: 100%;
+	background: purple;
+	overflow: hidden;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-size: 14px;
+	border-right: 1px solid #ddd;
+	color: #fff;
+}
+
+nav ul li a:hover {
+	background: #fff;
+	color: purple;
+}

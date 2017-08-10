@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<nav>
+			<ul>
+				<li>
+					<a href="" target="_blank">home</a>
+				</li>
+				<li>
+					<a href="">Profile</a>
+				</li>
+				<li>
+					<a href="">Contact</a>
+				</li>
+			</ul>
+		</nav>
+
+		<img src="images/gambar.jpg" alt="gambar header">
+
+		<h1>Selamat datang</h1>
+
+		<h2>parapah</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt eligendi vel iste impedit voluptate, quam laudantium accusamus blanditiis fugiat ut, reiciendis eveniet fugit voluptas quo repellat vero soluta cumque sapiente?
+		</p>
+
+		<h2>video</h2>
+		<video width="400" controls>
+		  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+		  Your browser does not support HTML5 video.
+		</video>
+
+		<h2>Vido youtube</h2>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/XUPHmKPWFmM" frameborder="0" allowfullscreen></iframe>
+
+		<h2>Form</h2>
+		<form action="profile.html">
+			<div>
+				<label for="fullname">Nama Lengkap</label>
+				<input type="text" name="fullname" id="fullname" placeholder="Masukan nama Anda"><br>
+			</div>
+			<div>
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" placeholder="password Anda"><br>
+			</div>
+			<div>
+				<label for="date">Tanggal lahir</label>
+				<input type="date" name="date" id="date"><br>
+			</div>
+
+			<div>
+				<label for="gender">jenis Kelamin</label><br>
+				<input type="radio" name="gender" checked>Cewek<br>
+				<input type="radio" name="gender">Cowok<br>
+				<input type="radio" name="gender" disabled>tidak diketahui<br>
+			</div>
+
+			<div>
+				<label for="hobi">Hobi</label><br>
+				<input type="checkbox" name="hobi" checked>Makan<br>
+				<input type="checkbox" name="hobi">Minum<br>
+				<input type="checkbox" name="hobi">Tidur<br>
+			</div>
+
+			<div>
+				<label for="domisili">Domisili</label><br>
+				<select name="domisili" id="domisili">
+					<option value="">Jogja</option>
+					<option value="">klaten</option>
+					<option value="" selected>Bantul</option>
+					<option value="" disabled>Bdg</option>
+				</select>
+			</div>
+			<div>
+				<textarea name="" id="" cols="30" rows="5"></textarea>
+			</div>
+
+			<div>
+				<label for="file">Foto profile</label>
+				<input type="file" name="file" id="file"><br>
+			</div>
+
+			<div>
+				<br>
+				<input type="submit" value="KIRIM">
+				<input type="reset" value="BERSIHKAN">
+				
+			</div>
+
+		</form>
+
+	</div>
+	
+</body>
+</html>

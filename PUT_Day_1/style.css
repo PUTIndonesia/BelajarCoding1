@@ -1,0 +1,12 @@
+.bapak {
+	color: white;
+	background-color: red;
+}
+
+.anak {
+	color: yellow;
+	display: inline;
+	background-color: blue;
+	padding: 20px;
+	margin: 20px;
+}
