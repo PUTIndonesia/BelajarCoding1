@@ -1,0 +1,42 @@
+.kolomA {
+    background-color: grey; 
+    height: 190px;
+    
+}
+
+.kolomB1{
+    background-color: yellow; 
+    height: 90px;
+}
+
+.kolomB2{
+    background-color: greenyellow; 
+    height: 90px;
+}
+
+.kolomC1{
+    background-color: hotpink; 
+    height: 90px;
+}
+
+.kolomC2{
+    background-color: rosybrown; 
+    height: 90px;
+}
+
+.kolomC3{
+    background-color: darkgrey; 
+    height: 90px;
+}
+
+.header{
+    background-color: darkgreen;
+}
+
+.col-md-3{
+    background-color: yellow;
+}
+
+.col-md-9{
+    background-color: brown;
+}
