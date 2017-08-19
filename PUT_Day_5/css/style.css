@@ -1,0 +1,47 @@
+.menu{
+    background-color: black;
+    color: white;
+}
+
+.title {
+	color: orange;
+}
+
+.item{
+	text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box {
+	height: 100px;
+}
+
+.box2 {
+	height: 50px;
+}
+
+
+.merah{
+	background-color: red;
+}
+
+.biru {
+	background-color: blue;
+}
+
+.kuning {
+	background-color: yellow;
+}
+
+.hijau {
+	background-color: green;
+}
+
+.pink {
+	background-color: pink;
+}
+
+.orange {
+	background-color: orange;
+}
